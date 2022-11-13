@@ -1,14 +1,14 @@
-function test ( )
+ShowIntegration = function ( )
 	setTimer ( function()
 iprint(
 setDiscordActivity(
 "Мой ник - "..getPlayerName(localPlayer).."",
-"DPLAY | Советский Сервер",
+"Name Server | Советский Сервер",
 "Мой ник - "..getPlayerNametagText(localPlayer).."",
-"logod",
-"Подключен к серверу - dplay-mta.ru",
+"logod", -- название картинки(лого)
+"Подключен к серверу - Name Server",
 true
 ))
 	end, 5000, 1 )
 end
-addEventHandler ( "onClientPlayerSpawn", getLocalPlayer(), test )
+addEventHandler ( "onClientPlayerSpawn", getLocalPlayer(), ShowIntegration )
