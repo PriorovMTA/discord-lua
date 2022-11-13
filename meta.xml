@@ -1,5 +1,5 @@
 <meta>
-	<info author="Sat9" version="1.0" name="Discord APP" type="script" />
+	<info author="Priorov and Sat9" version="1.0" name="Discord APP" type="script" />
 
-<script src="client.lua" type="client" cache="false"/>	
+        <script src="client.lua" type="client" cache="false"/>
 </meta>
